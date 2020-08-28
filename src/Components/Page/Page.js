@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import About from "./About";
 import Home from "./Home";
+import Action from "./Action";
+
 
 class Page extends Component {
   constructor() {
@@ -24,7 +26,9 @@ class Page extends Component {
     return (
       <div>
         <Home />
-        <About className={this.state.className} />
+        <Action>
+          <About className={this.state.className}></About>
+        </Action>
       </div>
     );
   }
