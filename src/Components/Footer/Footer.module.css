@@ -1,0 +1,14 @@
+.FooterContainer {
+  margin: auto;
+}
+.FooterFontStyle {
+  margin: auto;
+  align-self: center;
+  font-size: 10px;
+  font-style: italic;
+  color: #49515d;
+  opacity: 0.6;
+  display: block;
+  letter-spacing: 1.25px;
+  line-height: 20px;
+}

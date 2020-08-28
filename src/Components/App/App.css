@@ -1,0 +1,16 @@
+.layout {
+  max-width: 1000px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.layout__page {
+  margin: auto;
+}
+.layout__footer {
+  margin: auto;
+}
+section {
+  margin-bottom: 20vh;
+}

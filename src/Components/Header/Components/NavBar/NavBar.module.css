@@ -1,0 +1,17 @@
+.NavBarContainer {
+  margin: auto;
+  position: relative;
+}
+.Top {
+  text-align: center;
+}
+.TopContent {
+  font-size: 1.5em;
+  text-decoration: none;
+  position: fixed;
+}
+.NavBar {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+}
