@@ -14,15 +14,6 @@ const Home = () => (
           <div className={Styles.SlideTwo}></div>
         </Carousel.Item>
         <Carousel.Item>
-          {/* {" "}
-        <div className={Styles.SlideThree}>
-          <ul className={Styles.List}>
-            <li><h3>Core rule</h3></li>
-            <li className={Styles.Item}>Readable</li>
-            <li className={Styles.Item}> Maintainable</li>
-            <li className={Styles.Item}>Reuseable</li>
-          </ul>
-        </div> */}
           <div className={Styles.SlideThree}></div>
         </Carousel.Item>
       </Carousel>
