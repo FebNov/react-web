@@ -1,49 +1,65 @@
 import React from "react";
-import Cards from "./Cards";
-import Styles from "./Project.module.css";
-import Example from "./D.png";
+import "./Project.css";
+import ProjectItem from "./Components";
+import ReactWeb from "./assets/react-web.PNG";
+
 const Project = () => (
-  <section id="project" className={Styles.Container}>
-    <div className={Styles.Group}>
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example
-        </Cards>
+  <section id="project" className="container">
+    <h4 className="projectHeading">Recently Project</h4>
+    <div className="group">
+      <div className="item">
+        <ProjectItem
+          imgsrc={ReactWeb}
+          alt="react-web"
+          title="Personal Web"
+          category="React"
+          src="www.google.com"
+        />
       </div>
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
-      </div>{" "}
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
-      </div>{" "}
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
-      </div>{" "}
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
-      </div>{" "}
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
-      </div>{" "}
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
+      <div className="item">
+        <ProjectItem
+          imgsrc={ReactWeb}
+          alt="react-web"
+          title="Personal Web"
+          category="React"
+          src="www.google.com"
+        />
       </div>
-      <div className={Styles.Item}>
-        <Cards src={Example} alt="Example Img" title="Example">
-          This is example6
-        </Cards>
+      <div className="item">
+        <ProjectItem
+          imgsrc={ReactWeb}
+          alt="react-web"
+          title="Personal Web"
+          category="React"
+          src="www.google.com"
+        />
+      </div>
+      <div className="item">
+        <ProjectItem
+          imgsrc={ReactWeb}
+          alt="react-web"
+          title="Personal Web"
+          category="React"
+          src="www.google.com"
+        />
+      </div>
+      <div className="item">
+        <ProjectItem
+          imgsrc={ReactWeb}
+          alt="react-web"
+          title="Personal Web"
+          category="React"
+          src="www.google.com"
+        />
+      </div>
+      <div className="item">
+        <ProjectItem
+          imgsrc={ReactWeb}
+          alt="react-web"
+          title="Personal Web"
+          category="React"
+          src="www.google.com"
+        />
       </div>
     </div>
   </section>

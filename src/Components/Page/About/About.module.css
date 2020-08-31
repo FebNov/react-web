@@ -10,7 +10,15 @@
   list-style: none;
   padding: 0;
 }
+
+.ListContiner {
+  margin: auto;
+}
 .Item {
+  margin-left: 10%;
   letter-spacing: 0.5px;
   margin-top: 2.5vh;
+}
+.AboutSubHeading {
+  margin-top: 5vh;
 }
