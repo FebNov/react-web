@@ -25,7 +25,7 @@ const Project = () => (
           src="www.google.com"
         />
       </div>
-      <div className="item">
+      <div className="item ">
         <ProjectItem
           imgsrc={ReactWeb}
           alt="react-web"

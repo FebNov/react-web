@@ -1,8 +1,9 @@
 .container {
   margin: auto;
-  border: 1px solid black;
   min-width: 320px;
   position: relative;
+  overflow: scroll;
+  height: 90vh;
 }
 .group {
   display: flex;
@@ -14,7 +15,13 @@
 .projectHeading {
   text-align: center;
 }
-
+.item {
+  margin: auto;
+  width: 30vw;
+  min-width: 320px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
 /* .item {
   margin: auto;
   max-width: 100%;

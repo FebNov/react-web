@@ -4,9 +4,22 @@ import Footer from "../Footer";
 import Page from "../Page";
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faEye, faLink } from "@fortawesome/free-solid-svg-icons";
-
-library.add({ faEye, faLink });
+import {
+  faEye,
+  faLink,
+  faEnvelope,
+  faPhoneSquareAlt,
+} from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+// import { fab } from "@fortawesome/free-brands-svg-icons";
+library.add({
+  faEye,
+  faLink,
+  faEnvelope,
+  faPhoneSquareAlt,
+  faLinkedin,
+  faGithubSquare,
+});
 
 function App() {
   return (
