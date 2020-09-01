@@ -3,13 +3,10 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Page from "../Page";
 import "./App.css";
-
-import ReactDOM from "react-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
-// import { fab } from "@fortawesome/free-brands-svg-icons";
-import {["fab", "apple"]} from "@fortawesome/free-solid-svg-icons";
+import { faEye, faLink } from "@fortawesome/free-solid-svg-icons";
 
-library.add{["fab", "apple"]}
+library.add({ faEye, faLink });
 
 function App() {
   return (
