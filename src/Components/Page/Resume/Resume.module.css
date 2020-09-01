@@ -1,0 +1,6 @@
+.Container {
+  margin: auto;
+  position: relative;
+
+  min-height: 40vmin;
+}

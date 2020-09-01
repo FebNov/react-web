@@ -5,6 +5,7 @@ import Home from "./Home";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Project from "./Project";
+import Resume from "./Resume";
 const Page = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -21,7 +22,9 @@ const Page = () => {
       <div data-aos="fade-right">
         <Contact />
       </div>
-      <div data-aos="fade-up"></div>
+      <div data-aos="fade-up">
+        <Resume />
+      </div>
     </div>
   );
 };
