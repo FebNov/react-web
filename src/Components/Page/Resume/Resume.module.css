@@ -2,5 +2,13 @@
   margin: auto;
   position: relative;
 
-  min-height: 40vmin;
+  min-height: 20vmin;
+}
+.PopContainer {
+  text-align: center;
+}
+.ButtonView {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 5vmin;
 }

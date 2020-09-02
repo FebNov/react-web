@@ -4,7 +4,7 @@ import ProjectItem from "./Components";
 import ReactWeb from "./assets/react-web.PNG";
 
 const Project = () => (
-  <section id="project" className="container">
+  <div className="container">
     <h4 className="projectHeading">Recently Project</h4>
     <div className="group">
       <div className="item">
@@ -62,7 +62,7 @@ const Project = () => (
         />
       </div>
     </div>
-  </section>
+  </div>
 );
 
 export default Project;

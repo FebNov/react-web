@@ -1,6 +1,7 @@
 .NavBarContainer {
   margin: auto;
   position: relative;
+  z-index: 22;
 }
 .Top {
   text-align: center;

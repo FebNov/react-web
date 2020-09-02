@@ -3,7 +3,7 @@ import Styles from "./Resume.module.css";
 import { Modal } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function MyVerticallyCenteredModal(props) {
+function PopWindow(props) {
   return (
     <Modal
       {...props}
@@ -25,29 +25,26 @@ function MyVerticallyCenteredModal(props) {
   );
 }
 
-function UseExample() {
+function PopContainer() {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
     <>
-      <button onClick={() => setModalShow(true)}>View My Resume</button>
+      <button className={Styles.ButtonView} onClick={() => setModalShow(true)}>
+        View My Resume
+      </button>
 
-      <MyVerticallyCenteredModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-      />
+      <PopWindow show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );
 }
 
 const Resume = () => (
-  <section id="resume">
-    <div className={Styles.Container}>
-      <div>
-        <UseExample />
-      </div>
+  <div className={Styles.Container}>
+    <div className={Styles.PopContainer}>
+      <PopContainer />
     </div>
-  </section>
+  </div>
 );
 
 export default Resume;

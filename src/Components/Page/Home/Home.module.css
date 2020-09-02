@@ -1,12 +1,12 @@
 .CarouselContainer {
-  height: 60vh;
+  height: 60vmin;
   margin-top: 30px;
 }
 .SlideOne {
   position: relative;
   width: 100%;
   display: block;
-  height: 60vh;
+  height: 60vmin;
   background: url("./assets/webDesign.png");
   background-size: 100% 100%;
 }
@@ -14,7 +14,7 @@
   position: relative;
   width: 100%;
   display: block;
-  height: 60vh;
+  height: 60vmin;
   background: url("./assets/fullStack.jpeg");
   background-size: 100% 100%;
 }
@@ -23,7 +23,7 @@
   position: relative;
   width: 100%;
   display: flex;
-  height: 60vh;
+  height: 60vmin;
   background-size: 100% 100%;
   background: url("./assets/trustMe.jpg");
   background-size: 100% 100%;

@@ -4,20 +4,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 
 const Home = () => (
-  <section id="home">
-    <div className={Styles.CarouselContainer}>
-      <Carousel>
-        <Carousel.Item>
-          <div className={Styles.SlideOne}></div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className={Styles.SlideTwo}></div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className={Styles.SlideThree}></div>
-        </Carousel.Item>
-      </Carousel>
-    </div>
-  </section>
+  <div className={Styles.CarouselContainer}>
+    <Carousel>
+      <Carousel.Item>
+        <div className={Styles.SlideOne}></div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={Styles.SlideTwo}></div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={Styles.SlideThree}></div>
+      </Carousel.Item>
+    </Carousel>
+  </div>
 );
 export default Home;

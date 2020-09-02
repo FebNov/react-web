@@ -1,7 +1,6 @@
 import React from "react";
 import Styles from "./About.module.css";
 const About = () => (
-  <section id="about">
     <div className={Styles.Container}>
       <h3>Summary </h3>
       <div className={Styles.List}>
@@ -26,7 +25,6 @@ const About = () => (
         </p>
       </div>
     </div>
-  </section>
 );
 
 export default About;
